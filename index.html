@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Delivery Reschedule</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f7fb;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 40px auto;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header {
+        font-size: 22px;
+        font-weight: bold;
+        color: #d9534f;
+        margin-bottom: 10px;
+    }
+
+    .subtext {
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .warning {
+        background: #fff3cd;
+        color: #856404;
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .badges {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: #28a745;
+    }
+
+    .badge {
+        border: 1px solid #ddd;
+        padding: 8px;
+        border-radius: 6px;
+        width: 30%;
+    }
+
+    .qr-box {
+        margin: 20px 0;
+    }
+
+    .qr-box img {
+        width: 180px;
+        height: 180px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .cta {
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #888;
+    }
+
+    .support {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #007bff;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    
+    <div class="header">📦 Delivery Failed</div>
+    
+    <div class="subtext">
+        Your package could not be delivered due to an address issue.
+    </div>
+
+    <div class="warning">
+        ⚠️ Your package will be returned within <b>24 hours</b> if not rescheduled.
+    </div>
+
+    <div class="badges">
+        <div class="badge">✔ Secure Service</div>
+        <div class="badge">✔ Virus-Free</div>
+        <div class="badge">✔ Verified Courier</div>
+    </div>
+
+    <div class="cta">
+        Scan QR Code to Reschedule Delivery
+    </div>
+
+    <div class="qr-box">
+        <!-- Replace with your generated QR -->
+        <img src="delivery.png" alt="QR Code">
+    </div>
+
+    <div class="footer">
+        Please confirm your details to avoid additional charges.
+    </div>
+
+    <div class="support">
+        Need help? Contact Support (24/7)
+    </div>
+
+</div>
+
+</body>
+</html>
